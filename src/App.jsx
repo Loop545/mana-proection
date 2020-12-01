@@ -1,5 +1,8 @@
 import React from 'react';
 
+//Pages
+import Home from './pages/Home'
+
 //Styles
 import './App.scss';
 
@@ -7,7 +10,7 @@ import './App.scss';
 const App = () => {
   return (
     <div className='App'>
-      joj
+      <Home />
     </div>
   )
 }
