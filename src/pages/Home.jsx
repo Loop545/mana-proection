@@ -3,6 +3,7 @@ import React from 'react';
 //Styles 
 import '../pages/Home.scss'
 
+
 const  Home = () => {
     return (
         <header className='home-container'>

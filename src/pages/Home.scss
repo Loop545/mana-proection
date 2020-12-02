@@ -1,13 +1,17 @@
 .home-container {
   width: 100%;
-  background-image: url("../statics/banner.jpg");
-  background-size: cover;
   margin: 0 auto;
-}
-.banner-container h1 h2 {
-  color: white;
-}
 
-h1 h2 {
-  color: white;
+  .banner-container {
+    background-image: url("../statics/banner.jpg");
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+  }
+
+  .banner-container h1 h2 {
+    color: white;
+    h1 h2 {
+      color: white;
+    }
+  }
 }
