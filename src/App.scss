@@ -1,0 +1,47 @@
+.header-container {
+  width: 100%;
+  position: relative;
+  .nav-container {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    background-image: url(../src/statics/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(208, 198, 198, 0.3);
+
+    .nav ul {
+      position: absolute;
+      list-style: none;
+      color: white;
+      right: 0;
+      top: 0;
+      margin-right: 20px;
+    }
+    li {
+      display: inline;
+      float: left;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+    li a:hover {
+      color: aqua;
+    }
+    .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 20px;
+
+      h1 {
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

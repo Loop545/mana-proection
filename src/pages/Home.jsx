@@ -6,13 +6,12 @@ import '../pages/Home.scss'
 
 const  Home = () => {
     return (
-        <header className='home-container'>
-            <div className='banner-container'>
-                <h1> MANA PROTECTION </h1>
-                <h2> DAKUWAQA SERVICES</h2>
+            <div className='title-container'>
+                <p className='border-text'>
+                    Dakuwaqa <br></br> Services
+                </p>
+                <p className='service-text'> Safety | Logistics | Protection </p>
             </div>
-        </header>
-
     )
 
 }
