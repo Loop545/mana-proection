@@ -1,0 +1,39 @@
+.nav-container {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  top: 0;
+  z-index: 1;
+  .nav ul {
+    position: absolute;
+    list-style: none;
+    color: white;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+  }
+  li {
+    display: inline;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  li a:hover {
+    color: aqua;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+
+    h1 {
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -11,6 +11,7 @@ import Gallary from '../pages/Gallary'
 // Routes
 const Routes = {
 	'/': () => <Home />,
+	'/home': () => <Home />,
 	'/about': () => <About />,
 	'/services': () => <Services />,
 	'/contact': () => <Contact />,
