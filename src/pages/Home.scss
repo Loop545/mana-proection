@@ -41,3 +41,84 @@
     }
   }
 }
+.services-container {
+  width: 100%;
+  margin: 0 auto;
+  .title {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9f9e9e;
+    letter-spacing: 5px;
+    font-size: 3rem;
+  }
+  .title::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    bottom: -4rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 30%;
+    background: black;
+  }
+}
+
+//content
+.services-container {
+  .services-content {
+    width: 100%;
+    margin: 0 auto;
+    .content {
+      margin: 2rem;
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .image {
+      img {
+        width: 400px;
+        height: 600px;
+      }
+    }
+    .description {
+      .description-title {
+        color: #9f9e9e;
+        text-align: center;
+        padding: 1rem;
+        font-size: 2.5rem;
+      }
+      // .description-title::after {
+      //   position: absolute;
+      //   content: "";
+      //   height: 4px;
+      //   bottom: 0rem;
+      //   margin: 0 auto;
+      //   left: 0;
+      //   right: 0;
+      //   width: 30%;
+      //   background: black;
+      // }
+
+      p {
+        line-height: 2rem;
+      }
+      button {
+        background-color: black;
+        color: white;
+        padding: 0.5rem 2rem 0.5rem;
+        border-radius: 3px;
+        border: none;
+        float: right;
+        text-transform: uppercase;
+        margin-top: 3rem;
+      }
+      button:hover {
+        color: aqua;
+      }
+    }
+  }
+}
