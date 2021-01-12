@@ -4,6 +4,9 @@ import { useRoutes } from 'raviger';
 //Styles 
 import '../src/App.scss'
 
+//pages
+import Contact from './pages/Contact';
+
 //Components
 import Nav from '../src/components/Nav' 
 import Footer from '../src/components/Footer' 
@@ -17,6 +20,7 @@ const App = () => {
 		<div className='App'>
 			<Nav />
 			{Routes}
+			<Contact />
 			<Footer/>
 		</div>
 	);
