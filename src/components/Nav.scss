@@ -1,9 +1,10 @@
 .nav-container {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  background: transparent;
+  height: 75px;
   top: 0;
   z-index: 1;
+  background-color: black;
   .nav ul {
     position: absolute;
     list-style: none;
