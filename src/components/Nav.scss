@@ -4,13 +4,13 @@
   height: 75px;
   top: 0;
   z-index: 1;
-  background-color: black;
+  background-color: rgb(55, 55, 55);
   .nav ul {
     position: absolute;
     list-style: none;
     color: white;
     right: 0;
-    top: 0;
+    top: 15px;
     margin-right: 20px;
   }
   li {
@@ -51,14 +51,16 @@
       }
 
       label {
-        position: relative;
-        display: block;
-        float: right;
-        font-size: 1.1em;
-        margin: 0;
-        top: -1rem;
-        color: white;
-        border: 0.15em solid rgba(255, 255, 255, 0.2);
+        position: fixed;
+        right: 1rem;
+        top: 1.2rem;
+        z-index: 9;
+        transition: 0 !important;
+        width: 1.75rem;
+        height: 1.375rem;
+        cursor: pointer;
+        //background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB2ZXJzaW9uPScxLjEnIHg9JzBweCcgeT0nMHB4JyB3aWR0aD0nMzBweCcgaGVpZ2h0PSczMHB4JyB2aWV3Qm94PScwIDAgMzAgMzAnIGVuYWJsZS1iYWNrZ3JvdW5kPSduZXcgMCAwIDMwIDMwJyB4bWw6c3BhY2U9J3ByZXNlcnZlJz48cmVjdCB3aWR0aD0nMzAnIGhlaWdodD0nNicgc3R5bGU9J2ZpbGw6cmdiKDAsMCwwKScvPjxyZWN0IHk9JzI0JyB3aWR0aD0nMzAnIGhlaWdodD0nNicgc3R5bGU9J2ZpbGw6cmdiKDAsMCwwKScvPjxyZWN0IHk9JzEyJyB3aWR0aD0nMzAnIGhlaWdodD0nNicgc3R5bGU9J2ZpbGw6cmdiKDAsMCwwKScvPjwvc3ZnPg==);
+        background-size: contain;
         //background-color: white;
       }
 
@@ -67,25 +69,24 @@
         right: 0.25em;
         top: 0;
         content: "\2261";
+        color: white;
         font-size: 1.8em;
       }
       input#button {
         display: none;
       }
 
-      input[type="checkbox"]:checked ~ label:after {
-        color: rgb(206, 206, 206);
-      }
+      // input[type="checkbox"]:checked ~ label:after {
+      //   color: rgb(206, 206, 206);
+      // }
 
       input[type="checkbox"]:checked ~ ul {
         display: block;
         right: 0;
-        display: block;
         top: 4rem;
 
         > li {
           width: 100%;
-          //opacity: 0.8;
           text-align: left;
           background-color: white;
           color: black;
@@ -104,36 +105,3 @@
     }
   }
 }
-// @media screen and (max-width: 60rem) {
-//   body {
-//     margin: 1em 0;
-//   }
-
-//   .nav[role="select"] {
-//     ul {
-//       display: none;
-//     }
-
-//     &:after {
-//       position: absolute;
-//       z-index: -1;
-//       content: "Menu";
-//       right: 0;
-//       bottom: -1.75em;
-//       background: white;
-//       padding: 0.15em 0.55em;
-//       display: none;
-//     }
-
-//     select {
-//       display: block;
-//       cursor: pointer;
-//       width: 30%;
-//       padding: 0.55em 0.45em;
-//       border: none;
-//       background-color: white;
-//       font: 1rem "Exo", sans-serif;
-//       float: right;
-//     }
-//   }
-// }
