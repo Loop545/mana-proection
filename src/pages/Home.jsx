@@ -50,7 +50,9 @@ const  Home = () => {
                         </div> 
                     </div>
                     <div className='content'>
-                        
+                    <div className='image'>
+                            <img src={second} alt='personal driver'></img>
+                        </div>
                         <div className='description'>
                             <h1 className='description-title'>Personal Driver</h1>
                             <p> We specalize on giving our customers the feeling of being secure and able to trust us.
@@ -61,9 +63,7 @@ const  Home = () => {
                                     More</button>
                                 </Link>
                         </div> 
-                        <div className='image'>
-                            <img src={second} alt='personal driver'></img>
-                        </div>
+                        
                         
                     </div>
                     <div className='content'>

@@ -52,35 +52,45 @@
     letter-spacing: 5px;
     font-size: 3rem;
   }
-  .title::after {
-    position: absolute;
-    content: "";
-    height: 4px;
-    bottom: -4rem;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    width: 30%;
-    background: black;
-  }
-}
+  // .title::after {
+  //   position: absolute;
+  //   content: "";
+  //   height: 4px;
+  //   bottom: -4rem;
+  //   margin: 0 auto;
+  //   left: 0;
+  //   right: 0;
+  //   width: 30%;
+  //   background: black;
+  // }
 
-//content
-.services-container {
+  //content
+
   .services-content {
     width: 100%;
     margin: 0 auto;
+
     .content {
       margin: 2rem;
       margin-bottom: 5rem;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+      @media screen and (max-width: 40rem) {
+        display: block;
+      }
     }
     .image {
       img {
         width: 400px;
         height: 600px;
+        @media screen and (max-width: 40rem) {
+          width: 300px;
+          height: 450px;
+          margin: 0 auto;
+          display: inline-block;
+          margin-left: 4rem;
+        }
       }
     }
     .description {
