@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&family=Yusei+Magic&display=swap");
+
+body {
+  width: 100%;
+  height: 100%;
+  //background-color: white;
+  margin: 0 auto;
+}
+
+//Fonts
+$font_family: "Balsamiq Sans", cursive;
+$font_regular: 400 1rem $font_family;
+$font_bold: 700 1rem $font_family;
+$font: $font_regular;
