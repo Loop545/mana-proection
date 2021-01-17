@@ -3,5 +3,29 @@
   height: 100%;
   width: 100%;
   margin-top: 75px;
-  color: aliceblue;
+  color: black;
+  .about-content {
+    margin: 3rem;
+    height: 80%;
+    width: 90%;
+    border-radius: 2rem;
+    padding: 1rem;
+    z-index: 0;
+    position: absolute;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.064);
+
+    .text-area h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+    }
+    .text-area p {
+      padding-top: 2rem;
+      font-size: 1.3rem;
+      color: white;
+      font-weight: 100;
+      overflow: scroll;
+    }
+  }
 }
