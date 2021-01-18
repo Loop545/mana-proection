@@ -61,7 +61,7 @@ const Contact = () => {
 
 				<div className='contact-details'>
 
-					<div className='conxtact-address-block'>
+					<div className='contact-address-block'>
 
 						<div>
 

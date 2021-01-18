@@ -1,9 +1,47 @@
+@import "../styles/index.scss";
+
 .footer-container {
   position: relative;
   width: 100%;
   height: 60%;
   bottom: 0;
-  margin: 0 auto;
+  margin-top: 2rem auto;
   background-color: rgb(55, 55, 55);
   color: aliceblue;
+  p {
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: white;
+    font: $font-bold;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+
+  p ~ p {
+    text-transform: initial;
+    text-decoration: underline;
+    font: $font;
+    font-size: 0.7rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
+  }
+
+  @media screen and (min-width: 24rem) {
+    & {
+      display: flex;
+      p {
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        flex: 1;
+      }
+      p ~ p {
+        padding-top: 1rem;
+        padding-left: 0;
+        padding-right: 2rem;
+        text-align: right;
+      }
+    }
+  }
 }
